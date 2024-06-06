@@ -32,10 +32,10 @@ while($row = $rs->fetch(PDO::FETCH_OBJ)){
 
     echo '
     <tr>
-    <th class="w-1/4 py-2 px-4 bg-gray-200 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->titulo.' </th>
-    <th class="w-1/4 py-2 px-4 bg-gray-200 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->descricao.'</th>
-    <th class="w-1/4 py-2 px-4 bg-gray-200 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->status.'</th>
-    <th class="w-1/4 py-2 px-4 bg-gray-200 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->data.'</th>
+    <th class="w-1/4 py-2 px-4 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->titulo.' </th>
+    <th class="w-1/4 py-2 px-4 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->descricao.'</th>
+    <th class="w-1/4 py-2 px-4 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->status.'</th>
+    <th class="w-1/4 py-2 px-4 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">'.$row->data.'</th>
 </tr>
     ';
 }
